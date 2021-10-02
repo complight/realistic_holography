@@ -1,0 +1,42 @@
+{
+    "general"      : {
+                      "cuda"                    : 1,
+                      "iterations"              : 400,
+                      "propagation type"        : "custom",
+                      "output directory"        : "./output",
+                      "target filename"         : "./inputs/indian_head.png",
+                      "loss weights"            : [1.0],
+                      "region of interest"      : [0.0,1.0],
+                      "learning rate"           : 0.1
+                     },
+
+    "ideal"        : {
+                      "multiplier"              : 5.0
+                     },
+
+    "kernel"       : {
+                      "region of interest"      : [0.1,0.9],
+                      "learning rate"           : 0.002,
+                      "iterations"              : 30,
+                      "multiplier"              : 0.7
+                     },
+
+    "dataset"      : {
+                      "input directory"         : "../datasets/DIV2K_koray_holography/div2k_holograms",
+                      "output directory"        : "../datasets/DIV2K_koray_holography/div2k_warped"
+                     },
+
+    "image"        : {
+                      "location"                : [0.0,0.0,0.15]
+                     },
+
+    "slm"          : {
+                      "model"                   : "Holoeye Pluto 2.1",
+                      "pixel pitch"             : 0.000008,
+                      "resolution"              : [1080,1920]
+                     },
+
+    "beam"         : {
+                      "wavelength"              : 0.000000515
+                     }
+}
