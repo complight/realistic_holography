@@ -228,6 +228,7 @@ def start(settings):
     save(hologram_phase+checker,filename='hologram_phase_checker.png',directory=directory,save_type='phase')
     save(target,filename='target.png',directory=directory,save_type='image')
     multiplier                                = settings["ideal"]["multiplier"]
+    settings["general"]["propagation type"]   = 'TR Fresnel'
     hologram_phase_ideal,reconstruction_ideal = optimize(
                                                          settings,
                                                          wavelength,

@@ -11,7 +11,7 @@
                      },
 
     "ideal"        : {
-                      "multiplier"              : 5.0
+                      "multiplier"              : 1.0
                      },
 
     "kernel"       : {
