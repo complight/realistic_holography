@@ -120,7 +120,7 @@ We will be more than happy to assist your holographic display efforts, and you c
 # Citation
 If you find this repository useful for your research, please consider citing our work using the below `BibTeX entry.
 
-```
+```bibtex
 @inproceedings{koray2021learned,
   title={Learned Holographic Light Transport},
   author={Kavakl{\i}, Koray and Urey, Hakan and Ak\c{s}it, Kaan},
